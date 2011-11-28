@@ -7,6 +7,7 @@ gem 'rails', '3.1.1'
 
 gem 'sqlite3'
 
+gem 'gravatar_image_tag', '1.0.0.pre2'
 
 # Gems used only for assets and not required
 # in production environments by default.
@@ -39,5 +40,6 @@ group :test do
   # Pretty printed test output
   gem 'turn', :require => false
   gem 'spork', '0.9.0.rc8'
+  gem 'factory_girl_rails', '1.0'
 end
 
